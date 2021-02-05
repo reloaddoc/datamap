@@ -135,7 +135,7 @@ createLine(
     x: 50,
     y: 52
   }, {
-    station: "z.B. von Snowflake, Amazon Synapse, SAP DW. \nHier werden aus verschiedenen Quellen (z.B. Datenbanken in Vertrieb und Logistik) Daten \n'angezapft' und für Analyse- und Reportingzwecke aufbereitet.",
+    station: "z.B. von Snowflake, Amazon Synapse, SAP DW. \nHier werden aus verschiedenen Quellen \n(z.B. Datenbanken in Vertrieb und Logistik) Daten \n'angezapft' und für Analyse- und Reportingzwecke aufbereitet.",
     x: 55,
     y: 56
   }, {
@@ -191,7 +191,7 @@ createLine(
     x: 50,
     y: 50
   }, {
-    station: "Auf Basis der Ablageorte der Daten kann nun allerhand damit gemacht werden.",
+    station: "Auf Basis der Ablageorte der Daten \nkann nun allerhand damit gemacht werden.",
     x: 42,
     y: 24
   }]
