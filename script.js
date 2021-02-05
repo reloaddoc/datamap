@@ -234,7 +234,7 @@ createLine(
 
 
 chart.legend = new am4charts.Legend();
-chart.legend.position = "bottom";
+chart.legend.position = "right";
 
 /**
  * The map for background
