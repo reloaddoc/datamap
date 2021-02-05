@@ -213,7 +213,7 @@ createLine(
     x: 38,
     y: 50
   },{
-    station: "Auf Basis der Ablageorte der Daten kann nun allerhand damit gemacht werden.",
+    station: "Auf Basis der Ablageorte der Daten \nkann nun allerhand damit gemacht werden.",
     x: 43,
     y: 24
   }, ]
