@@ -209,7 +209,7 @@ createLine(
     x: 14,
     y: 38
   },{
-    station: "Z.B. von OracleDB, Google Cloud BigTable, SAP. \nHier liegen strukturierte Daten. Entweder weil sie per ETL strukturiert wurden oder weil z.B. \nein Formular so angelegt wurde, dass Kunden gar nicht anders können, \nals strukturierte Einträge zu hinterlassen.",
+    station: "Z.B. von OracleDB, Google Cloud BigTable, SAP. \nHier liegen strukturierte Daten. \nEntweder weil sie per ETL strukturiert wurden oder weil z.B. \nein Formular so angelegt wurde, \ndass Kunden gar nicht anders können, \nals strukturierte Einträge zu hinterlassen.",
     x: 38,
     y: 50
   },{
