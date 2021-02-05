@@ -105,7 +105,7 @@ function createConnector(data) {
 
 
 createLine(
-  "Ablage und Infrastruktur",
+  "Infrastruktur",
   am4core.color("#0075bf"),
   [{
     station: "Hier liegen Dateien, z.B. in Amazon S3 oder Microsoft Azure Storage. \nManche Dateien werden nie angefasst \n(z.B. solche, die wegen der Aufbewahrungsfristen abgelegt wurden).",
@@ -129,7 +129,7 @@ createLine(
 );
 
 createLine(
-  "Endanwender-Reportings",
+  "Fachl. Reportings",
   am4core.color("#009e3d"),
   [{
     station: "Datenbanken, Data Lakes und Warehouses speisen die Big Data Analysen.",
