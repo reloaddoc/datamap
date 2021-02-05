@@ -24,7 +24,6 @@ chart.padding(0, 0, 0, 0);
 
 // Title
 var title = chart.tooltipContainer.createChild(am4core.Label);
-title.text = "Vereinfachter Überblick der Datenwelt";
 title.fill = am4core.color("#00254b");
 title.fontSize = 25;
 //title.width = am4core.percent(100);
