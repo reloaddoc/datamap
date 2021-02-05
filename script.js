@@ -131,7 +131,7 @@ createLine(
   "Fachl. Reportings",
   am4core.color("#009e3d"),
   [{
-    station: "Datenbanken, Data Lakes und Warehouses speisen die Big Data Analysen.",
+    station: "Datenbanken, Data Lakes und \nWarehouses speisen die Big Data Analysen.",
     x: 50,
     y: 52
   }, {
@@ -187,7 +187,7 @@ createLine(
     x: 35,
     y: 66
   },{
-    station: "Datenbanken, Data Lakes und Warehouses speisen die Big Data Analysen.",
+    station: "Datenbanken, Data Lakes und \nWarehouses speisen die Big Data Analysen.",
     x: 50,
     y: 50
   }, {
