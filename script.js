@@ -104,7 +104,7 @@ function createConnector(data) {
 
 
 createLine(
-  "Infrastruktur",
+  "Ablage und Infrastruktur",
   am4core.color("#0075bf"),
   [{
     station: "Hier liegen Dateien, z.B. in Amazon S3 oder Microsoft Azure Storage. \nManche Dateien werden nie angefasst \n(z.B. solche, die wegen der Aufbewahrungsfristen abgelegt wurden).",
@@ -116,7 +116,7 @@ createLine(
     x: 53,
     y: 15
   }, {
-    station: "Extract, Transform, Load, z.B. mit Talend oder Amazon Glue. \nDaten werden in ein Schema gebracht, \nso dass sie in eine Datenbank eingetragen werden können \noder im Data Warehouse für Analysen genutzt werden können.",
+    station: "Z.B. von OracleDB, Google Cloud BigTable, SAP. \nHier liegen strukturierte Daten. Entweder weil sie strukturiert wurden oder weil z.B. \nein Formular so angelegt wurde, dass Kunden gar nicht anders können, \nals strukturierte Einträge zu hinterlassen.",
     x: 40,
     y: 20
   },
@@ -128,14 +128,14 @@ createLine(
 );
 
 createLine(
-  "Fachl. Reportings",
+  "Endanwender-Reportings",
   am4core.color("#009e3d"),
   [{
-    station: "Datenbanken, Data Lakes und \nWarehouses speisen die Big Data Analysen.",
+    station: "Datenbanken, Data Lakes und Warehouses speisen die Big Data Analysen.",
     x: 50,
     y: 52
   }, {
-    station: "z.B. von Snowflake, Amazon Synapse, SAP DW. \nHier werden aus verschiedenen Quellen \n(z.B. Datenbanken in Vertrieb und Logistik) Daten \n'angezapft' und für Analyse- und Reportingzwecke aufbereitet.",
+    station: "z.B. von Snowflake, Amazon Synapse, SAP DW. \nHier werden aus verschiedenen Quellen (z.B. Datenbanken in Vertrieb und Logistik) Daten \n'angezapft' und für Analyse- und Reportingzwecke aufbereitet.",
     x: 55,
     y: 56
   }, {
@@ -187,11 +187,11 @@ createLine(
     x: 35,
     y: 66
   },{
-    station: "Datenbanken, Data Lakes und \nWarehouses speisen die Big Data Analysen.",
+    station: "Datenbanken, Data Lakes und Warehouses speisen die Big Data Analysen.",
     x: 50,
     y: 50
   }, {
-    station: "Auf Basis der Ablageorte der Daten \nkann nun allerhand damit gemacht werden.",
+    station: "Auf Basis der Ablageorte der Daten kann nun allerhand damit gemacht werden.",
     x: 42,
     y: 24
   }]
@@ -209,11 +209,11 @@ createLine(
     x: 14,
     y: 38
   },{
-    station: "Z.B. von OracleDB, Google Cloud BigTable, SAP. \nHier liegen strukturierte Daten. \nEntweder weil sie per ETL strukturiert wurden oder weil z.B. \nein Formular so angelegt wurde, \ndass Kunden gar nicht anders können, \nals strukturierte Einträge zu hinterlassen.",
+    station: "Extract, Transform, Load, z.B. mit Talend oder Amazon Glue. \nDaten werden in ein Schema gebracht, \nso dass sie im Data Warehouse oder mit Data-Science Tools \nfür Analysen genutzt werden können.",
     x: 38,
     y: 50
   },{
-    station: "Auf Basis der Ablageorte der Daten \nkann nun allerhand damit gemacht werden.",
+    station: "Auf Basis der Ablageorte der Daten kann nun allerhand damit gemacht werden.",
     x: 43,
     y: 24
   }, ]
