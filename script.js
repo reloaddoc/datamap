@@ -131,11 +131,11 @@ createLine(
   "Endanwender-Reportings",
   am4core.color("#009e3d"),
   [{
-    station: "Datenbanken, Data Lakes und Warehouses speisen die Big Data Analysen.",
+    station: "Datenbanken, Data Lakes und \nWarehouses speisen die Big Data Analysen.",
     x: 50,
     y: 52
   }, {
-    station: "z.B. von Snowflake, Amazon Synapse, SAP DW. \nHier werden aus verschiedenen Quellen (z.B. Datenbanken in Vertrieb und Logistik) Daten \n'angezapft' und für Analyse- und Reportingzwecke aufbereitet.",
+    station: "z.B. von Snowflake, Amazon Synapse, SAP DW. \nHier werden aus verschiedenen Quellen \n(z.B. Datenbanken in Vertrieb und Logistik) Daten \n'angezapft' und für Analyse- und Reportingzwecke aufbereitet.",
     x: 55,
     y: 56
   }, {
@@ -187,7 +187,7 @@ createLine(
     x: 35,
     y: 66
   },{
-    station: "Datenbanken, Data Lakes und Warehouses speisen die Big Data Analysen.",
+    station: "Datenbanken, Data Lakes und \nWarehouses speisen die Big Data Analysen.",
     x: 50,
     y: 50
   }, {
